@@ -1,0 +1,27 @@
+<div class="wrapper">
+    <div class="left-side">
+        <div class="canvas-container">
+            <canvas id="canvas" width="1200" height="600"></canvas>
+        </div>
+        <script type="module" src="./templates/js/src/Script_start.js"></script>
+    </div>
+    <div class="right-side">
+        <div class="button-container">
+            <button title="Options" onclick="optionsPage()">Options</button>
+            <button title="Quit" onclick="quitPage()" class="button-red">Quit</button>
+        </div>
+        <div class="statistics-container">
+            <a>Iterations: </a>
+            <a>Amount of undetected food: </a>
+            <a>Red bugs remaining: </a>
+            <a>Red bugs killed: </a>
+            <a>Food brought home by red bugs: </a>
+            <a>Black bugs remaining: </a>
+            <a>Black bugs killed: </a>
+            <a>Food brought home by black bugs: </a>
+        </div>
+        <div class="logs-container" style="overflow-y:scroll;">
+            <a>Logs will be here:</a>
+        </div>
+    </div>
+</div>
